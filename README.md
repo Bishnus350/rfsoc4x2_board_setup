@@ -1,15 +1,16 @@
+# Note: I keep updating my notes so please if you follow it, download it each time and you can delete the previous one. As I am in the learning process I keep updating my notes once I got exciting results. "Inconvenience regretted"
 # rfsoc4x2_board_setup
 This is the simple tutorial to set up the rfsoc4x2 board as I followed these steps to set it up and run CASPER toolflows. Radio frequency System on Chip RFSoC 4x2 board is the successor of RFSoC 2x2 board. The manufacturer is Xilinx (Now AMD) and it is supported by PYNQ. We are using this device for the BURSTT project and strictly following the CASPER tool flow to set it up.
-I am writing some basic features and notes for my presonal use.
-Radio Frequency System on Chip board is high performance computing system and is very powerful. It can optimized upto the signal of 5GSPS (Giga samples per second) and generate signals upto 9.8GSPS. 
-- The board offers 4 High speed ADC port 
-- 2 high speed DAC ports
+I am writing some basic features and notes for my personal use.
+Radio Frequency System on Chip board is high-performance computing system and is very powerful. It can optimized upto the signal of 5GSPS (Giga samples per second) and generate signals up to 9.8GSPS. 
+- The board offers 4 High-speed ADC port 
+- 2 high-speed DAC ports
 - 8 GB fast DDR4
 - QSFP28(Quad Small Form-factor Pluggable 28) port for high-speed data offload
 ----------------------------
-- It is suitable for Software defined radio (SDR) system 
-- Quad core ARM cortex-A53, dual core ARM cortex R5F, monolithic direct RF-sampling ADCs and DACs
-- It works on AMD-Xilinx Vitis/ Vivado tools and the PYNQ open source framework.- It can be programmed using USB and SD carf both. 
+- It is suitable for Software-defined radio (SDR) system 
+- Quad-core ARM cortex-A53, dual-core ARM cortex R5F, monolithic direct RF-sampling ADCs and DACs
+- It works on AMD-Xilinx Vitis/ Vivado tools and the PYNQ open-source framework.- It can be programmed using USB and SD card both. 
 
 ARM (Acorn RISC Machine) is a family of Reduced Instruction Set Computing (RISC) architectures for computer processors, and ARM Cortex is a specific series of processor cores within the ARM architecture. The ARM architecture is widely used in various embedded systems, mobile devices, and other computing platforms due to its power efficiency, performance, and versatility.
 ----------------------
@@ -18,14 +19,14 @@ ARM (Acorn RISC Machine) is a family of Reduced Instruction Set Computing (RISC)
 - ARM Mali-400 GPU is mostly used in Mobile devices. 
 Arm Neon is an advanced single instruction multiple data (SIMD) architecture extension for the Arm Cortex-A and Arm Cortex-R series of processors with capabilities that vastly improve use cases on mobile devices, such as multimedia encoding/decoding, user interface, 2D/3D graphics and gaming.
 - Single/double precision floating point unit
-- 256Kbytes of PS ram, support 64-bit, DDR4 memory
+- 256Kbytes of PS RAM, support 64-bit, DDR4 memory
 - Support PCI Express, SATA, Display Port, Gbit Ethernet, USB3 and other ports
 - System Memory Management Unit
 ------------------------------------------------
-- The main function of RFSoC board is for radio frequency signalling 
-- RF system is more important for this board. 
+- The main function of the RFSoC board is for radio frequency signaling 
+- The RF system is more important for this board. 
 - For RF system 
-1. There are 4, 14 bit RF ADCs with 5GSPS max sample rate 
+1. There are 4, 14 bit RF ADCs with a 5GSPS max sample rate 
 2. "      "  2 14-bit RF DACs with 9.85GSPS max sample rate 
 3. 8 SD-FEC IP block
 
